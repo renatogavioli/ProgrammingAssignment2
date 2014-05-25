@@ -1,8 +1,8 @@
-##      This function creates a cache in the form of a list containing four function to: 
+x ##      This function creates a cache in the form of a list containing four function to: 
 ##      set and get the value of the matrix, and set and get the value of the inverse of 
 ##      this matrix.
 
-makeCacheMatrix <- function(x = numeric()) {
+makeCacheMatrix <- function(x = matrix()) {
         i <- NULL 
         set <- function(y) { ## Sets 'x' as the matrix in this cache, 'i' as NULL
                 x <<- y 
